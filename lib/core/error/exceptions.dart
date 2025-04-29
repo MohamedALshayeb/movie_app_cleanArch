@@ -4,3 +4,8 @@ class ServerException implements Exception {
   final ErrorMessageModel errorMessage;
   const ServerException({required this.errorMessage});
 }
+
+// class LocalDatabaseException implements Exception {
+//   final String message;
+//   const LocalDatabaseException({required this.message});
+// }
